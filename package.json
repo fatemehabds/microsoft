@@ -1,0 +1,16 @@
+{
+  "name": "microsoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch scss/ -o css/ --recursive "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "live-server": "^1.2.2",
+    "node-sass": "^8.0.0"
+  }
+}

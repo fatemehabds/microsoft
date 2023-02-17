@@ -1,0 +1,697 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@media screen and (min-width: 1400px) {
+  div.drop {
+    font-size: 12px;
+    white-space: nowrap; }
+  div.img1 {
+    position: relative; }
+    div.img1 > div.text1 {
+      position: absolute;
+      width: 250px;
+      height: 50px;
+      top: 120px;
+      text-align: left; }
+  div.cards > .card {
+    width: 25%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.cards > .card {
+    width: 20%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.card-text > p {
+    font-size: 13px; }
+  div.card-head > h3 {
+    font-size: 16px; }
+  div.mid-img-1 > img {
+    width: 1300px; }
+  div.mid-img-1 {
+    position: relative; }
+    div.mid-img-1 > .mid-img {
+      top: 100px;
+      width: 300px;
+      position: absolute;
+      left: 260px;
+      text-align: left;
+      color: black; }
+      div.mid-img-1 > .mid-img > p {
+        font-size: 14px;
+        text-align: justify; }
+  div.cards-2 > div.card {
+    width: 20%;
+    box-shadow: unset;
+    border: unset; }
+  div.cards-2 > div.card > div.card-body > .card-text > p {
+    font-size: 14px; }
+  div.mid-img-2 {
+    position: relative; }
+    div.mid-img-2 > img {
+      width: 1200px; }
+    div.mid-img-2 > div.text-mid {
+      position: absolute;
+      width: 400px;
+      right: 0px; }
+  div.social > div > a > img {
+    width: 32px;
+    height: 32px; }
+  div.follow > p {
+    font-size: 18px; }
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #60587f;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */ }
+  #myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */ }
+  div.footer {
+    background-color: #f2f2f2;
+    height: 400px; }
+    div.footer > div > a {
+      font-size: 12px; }
+      div.footer > div > a:hover {
+        text-decoration: underline; }
+  div.cards-3 > div.card {
+    width: 31%;
+    box-shadow: unset; } }
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  div.menu > a > div > div {
+    font-size: 10px; }
+  div.drop {
+    font-size: 12px;
+    white-space: nowrap; }
+  div.img1 {
+    position: relative; }
+    div.img1 > div.text1 {
+      position: absolute;
+      width: 300px;
+      height: 50px;
+      top: 120px;
+      text-align: left; }
+      div.img1 > div.text1 > h3 {
+        font-size: 20px; }
+      div.img1 > div.text1 > p {
+        font-size: 12px; }
+  div.cards > .card {
+    width: 25%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.cards > .card {
+    width: 20%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.card-text > p {
+    font-size: 13px; }
+  div.card-head > h3 {
+    font-size: 16px; }
+  div.mid-img-1 > img {
+    width: 100%; }
+  div.mid-img-1 {
+    position: relative; }
+    div.mid-img-1 > .mid-img {
+      top: 70px;
+      width: 300px;
+      position: absolute;
+      left: 260px;
+      text-align: left;
+      color: black; }
+      div.mid-img-1 > .mid-img > p {
+        font-size: 14px;
+        text-align: justify; }
+  div.cards-2 > div.card {
+    width: 20%;
+    box-shadow: unset;
+    border: unset; }
+  div.cards-2 > div.card > div.card-body > .card-text > p {
+    font-size: 14px; }
+  div.mid-img-2 {
+    position: relative; }
+    div.mid-img-2 > img {
+      width: 1200px; }
+    div.mid-img-2 > div.text-mid {
+      position: absolute;
+      width: 400px;
+      right: 0px; }
+  div.social > div > a > img {
+    width: 32px;
+    height: 32px; }
+  div.follow > p {
+    font-size: 18px; }
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 55px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #60587f;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */ }
+  #myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */ }
+  div.footer {
+    background-color: #f2f2f2;
+    height: 400px; }
+    div.footer > div > a {
+      font-size: 12px; }
+      div.footer > div > a:hover {
+        text-decoration: underline; }
+  div.cards-3 > div.card {
+    width: 31%;
+    box-shadow: unset; } }
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  div.collapse > ul > li > a {
+    font-size: 12px; }
+  div.lg-cards > div.card {
+    width: 47%;
+    border: unset;
+    box-shadow: unset; }
+    div.lg-cards > div.card > div.card-text > p {
+      font-size: 17px; }
+  #lg-menu {
+    width: 60px;
+    height: 60px; }
+  div.menu > a > div > div {
+    font-size: 10px; }
+  div.drop {
+    font-size: 12px;
+    white-space: nowrap; }
+  div.img1 {
+    position: relative; }
+    div.img1 > div.text1 {
+      position: absolute;
+      width: 300px;
+      height: 50px;
+      left: 55px;
+      top: 100px;
+      text-align: left; }
+      div.img1 > div.text1 > h3 {
+        font-size: 17px; }
+      div.img1 > div.text1 > p {
+        font-size: 12px; }
+  div.cards > .card {
+    width: 25%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.cards > .card {
+    width: 20%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.card-head > h3 {
+    font-size: 16px; }
+  div.mid-img-1 > img {
+    width: 100%;
+    height: 400px; }
+  div.mid-img-1 {
+    position: relative;
+    height: 500px; }
+    div.mid-img-1 > .mid-img {
+      top: 70px;
+      width: 300px;
+      position: absolute;
+      left: 260px;
+      text-align: left;
+      color: black; }
+      div.mid-img-1 > .mid-img > p {
+        font-size: 14px;
+        text-align: justify; }
+    div.mid-img-1 > .lg-caption {
+      width: 850px;
+      bottom: 0px;
+      left: 1px;
+      opacity: 0.8;
+      box-shadow: #a4a2a2 0px 10px 20px, #555 0px 10px 20px; }
+  div.cards-2 > div.card {
+    width: 20%;
+    box-shadow: unset;
+    border: unset; }
+  div.cards-2 > div.card > div.card-body > .card-text > p {
+    font-size: 14px; }
+  div.social > div > a > img {
+    width: 32px;
+    height: 32px; }
+  div.follow > p {
+    font-size: 18px; }
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 55px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #60587f;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */ }
+  #myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */ }
+  div.footer {
+    background-color: #f2f2f2;
+    height: 400px; }
+    div.footer > div > a {
+      font-size: 14px; }
+      div.footer > div > a:hover {
+        text-decoration: underline; }
+  div.cards-3 > div.card {
+    width: 31%;
+    box-shadow: unset; } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  div.collapse > ul > li > a {
+    font-size: 12px; }
+  div.lg-cards > div.card {
+    width: 47%;
+    border: unset;
+    box-shadow: unset; }
+    div.lg-cards > div.card > div.card-text > p {
+      font-size: 17px; }
+  .buy-link {
+    font-size: 13px; }
+  #lg-menu {
+    width: 32px;
+    height: 32px; }
+  div.menu > a > div > div {
+    font-size: 10px; }
+  div.drop {
+    font-size: 12px;
+    white-space: nowrap; }
+  div.img1 {
+    position: relative; }
+    div.img1 > div.text1 {
+      position: absolute;
+      width: 200px;
+      height: 50px;
+      left: 35px;
+      top: 45px;
+      text-align: left; }
+      div.img1 > div.text1 > h3 {
+        font-size: 17px; }
+      div.img1 > div.text1 > p {
+        font-size: 12px; }
+  div.cards > .card {
+    width: 25%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.cards > .card {
+    width: 20%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.card-head > h3 {
+    font-size: 16px; }
+  div.mid-img-1 > img {
+    width: 100%;
+    height: 300px; }
+  div.mid-img-1 {
+    position: relative;
+    height: 500px; }
+    div.mid-img-1 > .mid-img {
+      top: 70px;
+      width: 300px;
+      position: absolute;
+      left: 260px;
+      text-align: left;
+      color: black; }
+      div.mid-img-1 > .mid-img > p {
+        font-size: 14px;
+        text-align: justify; }
+    div.mid-img-1 > .lg-caption {
+      left: 0px;
+      opacity: 0.8;
+      box-shadow: #a4a2a2 0px 10px 20px, #555 0px 10px 20px; }
+      div.mid-img-1 > .lg-caption > h4 {
+        font-size: 17px; }
+      div.mid-img-1 > .lg-caption > p {
+        font-size: 13px; }
+  div.cards-2 > div.card {
+    width: 20%;
+    box-shadow: unset;
+    border: unset; }
+  div.cards-2 > div.card > div.card-body > .card-text > p {
+    font-size: 14px; }
+  div.social > div > a > img {
+    width: 32px;
+    height: 32px; }
+  div.follow > p {
+    font-size: 18px; }
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 55px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #60587f;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 12px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 15px;
+    /* Increase font size */
+    opacity: 0.9; }
+  #myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */ }
+  div.footer {
+    background-color: #f2f2f2;
+    height: 310px; }
+    div.footer > div > a {
+      font-size: 12px; }
+      div.footer > div > a:hover {
+        text-decoration: underline; }
+  div.cards-3 > div.card {
+    width: 31%;
+    box-shadow: unset; } }
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  div.sm-card {
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: none !important; }
+  div.collapse > ul > li > a {
+    font-size: 12px; }
+  div.lg-cards > div.card {
+    width: 47%;
+    border: unset;
+    box-shadow: unset; }
+  .card-text > p {
+    font-size: 13px; }
+  .buy-link {
+    font-size: 11px; }
+  #lg-menu {
+    width: 32px;
+    height: 32px; }
+  div.menu > a > div > div {
+    font-size: 10px; }
+  div.drop {
+    font-size: 12px;
+    white-space: nowrap; }
+  div.img1 {
+    position: relative; }
+    div.img1 > div.text1 {
+      position: absolute;
+      width: 200px;
+      height: 50px;
+      top: 15px;
+      left: 20px;
+      text-align: left; }
+      div.img1 > div.text1 > h3 {
+        font-size: 14px; }
+      div.img1 > div.text1 > p {
+        font-size: 12px; }
+  div.cards > .card {
+    width: 25%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.cards > .card {
+    width: 20%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.card-head > h3 {
+    font-size: 16px; }
+  div.mid-img-1 > img {
+    width: 100%;
+    height: 300px; }
+  div.mid-img-1 {
+    position: relative;
+    height: px; }
+    div.mid-img-1 > .mid-img {
+      top: 70px;
+      width: 300px;
+      position: absolute;
+      left: 260px;
+      text-align: left;
+      color: black; }
+      div.mid-img-1 > .mid-img > p {
+        font-size: 14px;
+        text-align: justify; }
+    div.mid-img-1 > .lg-caption {
+      position: absolute;
+      left: 60px;
+      bottom: 0px;
+      opacity: 0.7;
+      box-shadow: #a4a2a2 0px 10px 20px, #555 0px 10px 20px; }
+      div.mid-img-1 > .lg-caption > h4 {
+        font-size: 17px;
+        font-weight: 700; }
+      div.mid-img-1 > .lg-caption > p {
+        font-size: 13px; }
+  div.cards-2 > div.card {
+    width: 20%;
+    box-shadow: unset;
+    border: unset; }
+  div.cards-2 > div.card > div.card-body > .card-text > p {
+    font-size: 14px; }
+  div.social > div > a > img {
+    width: 32px;
+    height: 32px; }
+  div.follow > p {
+    font-size: 18px; }
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 55px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #60587f;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 12px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 15px;
+    /* Increase font size */
+    opacity: 0.9; }
+  #myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */ }
+  div.footer {
+    background-color: #f2f2f2;
+    height: 300px; }
+    div.footer > div > a {
+      font-size: 13px; }
+      div.footer > div > a:hover {
+        text-decoration: underline; }
+  div.cards-3 > div.card {
+    width: 31%;
+    box-shadow: unset; } }
+
+@media screen and (max-width: 579px) {
+  .img1 > img {
+    height: 250px; }
+  .boot-footer {
+    background-color: #f2f2f2; }
+  .xs-item-footer > ul > li > a {
+    font-size: 12px; }
+  .xs-footer {
+    height: 500px; }
+  div.sm-card {
+    width: 85%;
+    margin: 0 auto;
+    box-shadow: none !important; }
+  div.collapse > ul > li > a {
+    font-size: 12px; }
+  div.lg-cards > div.card {
+    width: 85%;
+    border: unset;
+    box-shadow: unset;
+    margin: 0 auto; }
+  .card-text > p {
+    font-size: 13px; }
+  .buy-link {
+    font-size: 11px; }
+  #lg-menu {
+    width: 32px;
+    height: 32px; }
+  div.menu > a > div > div {
+    font-size: 10px; }
+  div.drop {
+    font-size: 12px;
+    white-space: nowrap; }
+  div.img1 {
+    position: relative; }
+    div.img1 > div.text1 {
+      position: absolute;
+      width: 200px;
+      height: 50px;
+      top: 30px;
+      text-align: left;
+      left: 20px; }
+      div.img1 > div.text1 > h3 {
+        font-size: 11px; }
+      div.img1 > div.text1 > p {
+        font-size: 10px; }
+  div.cards > .card {
+    width: 25%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.cards > .card {
+    width: 20%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.card-head > h3 {
+    font-size: 16px; }
+  div.mid-img-1 > img {
+    width: 500px;
+    height: 200px; }
+  div.mid-img-1 {
+    position: relative; }
+    div.mid-img-1 > .mid-img {
+      top: 70px;
+      width: 300px;
+      position: absolute;
+      left: 260px;
+      text-align: left;
+      color: black; }
+      div.mid-img-1 > .mid-img > p {
+        font-size: 14px;
+        text-align: justify; }
+    div.mid-img-1 > .lg-caption {
+      left: 60px;
+      bottom: 0px;
+      opacity: 0.7;
+      box-shadow: #a4a2a2 0px 10px 20px, #555 0px 10px 20px; }
+      div.mid-img-1 > .lg-caption > h4 {
+        font-size: 17px;
+        font-weight: 700; }
+      div.mid-img-1 > .lg-caption > p {
+        font-size: 13px; }
+  div.cards-2 > div.card {
+    width: 20%;
+    box-shadow: unset;
+    border: unset; }
+  div.cards-2 > div.card > div.card-body > .card-text > p {
+    font-size: 14px; }
+  div.social > div > a > img {
+    width: 32px;
+    height: 32px; }
+  div.follow > p {
+    font-size: 18px; }
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 55px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #60587f;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 12px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 15px;
+    /* Increase font size */
+    opacity: 0.9; }
+  #myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */ }
+  div.footer {
+    background-color: #f2f2f2;
+    height: 300px; }
+    div.footer > div > a {
+      font-size: 13px; }
+      div.footer > div > a:hover {
+        text-decoration: underline; }
+  div.cards-3 > div.card {
+    width: 31%;
+    box-shadow: unset; } }
