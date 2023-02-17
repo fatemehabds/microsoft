@@ -564,8 +564,6 @@
     box-shadow: unset; } }
 
 @media screen and (max-width: 579px) {
-  .img1 > img {
-    height: 250px; }
   .boot-footer {
     background-color: #f2f2f2; }
   .xs-item-footer > ul > li > a {
@@ -601,9 +599,9 @@
       position: absolute;
       width: 200px;
       height: 50px;
-      top: 30px;
+      top: 5px;
       text-align: left;
-      left: 20px; }
+      left: 10px; }
       div.img1 > div.text1 > h3 {
         font-size: 11px; }
       div.img1 > div.text1 > p {
