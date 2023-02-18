@@ -603,9 +603,9 @@
       text-align: left;
       left: 10px; }
       div.img1 > div.text1 > h3 {
-        font-size: 11px; }
-      div.img1 > div.text1 > p {
         font-size: 10px; }
+      div.img1 > div.text1 > p {
+        font-size: 8px; }
   div.cards > .card {
     width: 25%; }
   div.card {
