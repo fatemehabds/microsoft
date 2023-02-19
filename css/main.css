@@ -356,6 +356,8 @@
     box-shadow: unset; } }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  div.lg-cards > .card {
+    width: 45%; }
   div.cards-game > .card {
     width: 18%;
     display: block;
