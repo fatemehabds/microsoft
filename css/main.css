@@ -3,6 +3,25 @@
   padding: 0; }
 
 @media screen and (min-width: 1400px) {
+  div.cards-game > .card {
+    width: 15%;
+    display: block;
+    height: 450px; }
+    div.cards-game > .card > img {
+      width: 193px;
+      height: 290px;
+      display: block;
+      margin: 0 auto; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.cards > .card {
+    width: 20%; }
+  div.card {
+    box-shadow: gray 0px 10px 20px, gray 0px 6px 6px; }
+  div.card-text-game > p {
+    font-size: 13px; }
+  div.card-head-game > h3 {
+    font-size: 16px; }
   div.drop {
     font-size: 12px;
     white-space: nowrap; }
@@ -101,6 +120,15 @@
     box-shadow: unset; } }
 
 @media screen and (min-width: 1200px) and (max-width: 1400px) {
+  div.cards-game > .card {
+    width: 17%;
+    display: block;
+    height: 450px; }
+    div.cards-game > .card > img {
+      width: 193px;
+      height: 290px;
+      display: block;
+      margin: 0 auto; }
   div.menu > a > div > div {
     font-size: 10px; }
   div.drop {
@@ -205,6 +233,15 @@
     box-shadow: unset; } }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+  div.cards-game > .card {
+    width: 18%;
+    display: block;
+    height: 450px; }
+    div.cards-game > .card > img {
+      width: 170px;
+      height: 290px;
+      display: block;
+      margin: 0 auto; }
   div.collapse > ul > li > a {
     font-size: 12px; }
   div.lg-cards > div.card {
@@ -319,13 +356,27 @@
     box-shadow: unset; } }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+  div.cards-game > .card {
+    width: 18%;
+    display: block;
+    height: 450px; }
+    div.cards-game > .card > img {
+      width: 170px;
+      height: 290px;
+      display: block;
+      margin: 0 auto; }
   div.collapse > ul > li > a {
     font-size: 12px; }
-  div.lg-cards > div.card {
-    width: 47%;
+  div.lg-cards-games > div.card {
+    width: 40%;
     border: unset;
     box-shadow: unset; }
-    div.lg-cards > div.card > div.card-text > p {
+    div.lg-cards-games > div.card > img {
+      width: 193px;
+      height: 290px;
+      display: block;
+      margin: 0 auto; }
+    div.lg-cards-games > div.card > div.card-text > p {
       font-size: 17px; }
   .buy-link {
     font-size: 13px; }
@@ -438,6 +489,26 @@
     box-shadow: unset; } }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
+  div.cards-game > .card {
+    width: 17%;
+    display: block;
+    height: 450px; }
+    div.cards-game > .card > img {
+      width: 160px;
+      height: 230px;
+      display: block;
+      margin: 0 auto; }
+  div.lg-cards-games > div.card {
+    width: 40%;
+    border: unset;
+    box-shadow: unset; }
+    div.lg-cards-games > div.card > img {
+      width: 170px;
+      height: 290px;
+      display: block;
+      margin: 0 auto; }
+    div.lg-cards-games > div.card > div.card-text > p {
+      font-size: 17px; }
   div.sm-card {
     width: 85%;
     margin: 0 auto;
@@ -564,6 +635,17 @@
     box-shadow: unset; } }
 
 @media screen and (max-width: 579px) {
+  div.lg-cards-games > div.card {
+    width: 30%;
+    border: unset;
+    box-shadow: unset; }
+    div.lg-cards-games > div.card > img {
+      width: 120px;
+      height: 200px;
+      display: block;
+      margin: 0 auto; }
+  .xs-text {
+    font-size: 13px; }
   .boot-footer {
     background-color: #f2f2f2; }
   .xs-item-footer > ul > li > a {
