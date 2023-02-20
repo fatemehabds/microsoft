@@ -867,16 +867,16 @@
     position: relative;
     > div.text1 {
       position: absolute;
-      width: 200px;
+      width: 150px;
       height: 50px;
-      top: 1px;
+      top: 10px;
       text-align: left;
-      left: 6px;
+      left: 8px;
       > h3 {
-        font-size: 10px;
+        font-size: 8px;
       }
       > p {
-        font-size: 7px;
+        font-size: 6px;
       }
     }
   }
